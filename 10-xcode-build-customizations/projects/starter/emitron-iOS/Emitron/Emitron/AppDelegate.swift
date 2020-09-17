@@ -59,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     persistenceStore = PersistenceStore(db: dbPool)
     guardpost = Guardpost(baseUrl: "https://accounts.raywenderlich.com",
                           urlScheme: "com.razeware.emitron://",
-                          ssoSecret: Configuration.ssoSecret,
+                          ssoSecret: "",
                           persistenceStore: persistenceStore)
     
     sessionController = SessionController(guardpost: guardpost)

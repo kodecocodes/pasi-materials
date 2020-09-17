@@ -104,6 +104,6 @@
 "loggedInAs" = "Logged in as";
 "courseEpisodes" = "Course Episodes";
 "proCourse" = "Pro Course";
-"inProgress" = "Trwa";
-"completed" = "Zakończone";
-"bookmarked" = "Zapisany";
+"inProgress" = "In Progress";
+"completed" = "Completed";
+"bookmarked" = "Bookmarked";
