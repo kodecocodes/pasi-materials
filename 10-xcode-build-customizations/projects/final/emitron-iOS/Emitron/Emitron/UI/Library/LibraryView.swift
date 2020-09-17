@@ -99,6 +99,12 @@ struct LibraryView: View {
         .foregroundColor(.contentText)
 
       Spacer()
+      if ProcessInfo.processInfo.arguments.contains("-debugLibraryCount") {
+        Text("\(libraryRepository.contents.count) Fetched")
+          .font(.uiLabelBold)
+          .foregroundColor(Color("error"))
+        Spacer()
+      }
 
       Button(action: {
         // Change sort

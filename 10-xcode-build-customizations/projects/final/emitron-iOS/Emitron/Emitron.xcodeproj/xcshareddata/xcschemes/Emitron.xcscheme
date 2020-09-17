@@ -68,6 +68,10 @@
             argument = "-userBackdoorToken FILL_THIS_IN"
             isEnabled = "NO">
          </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-debugLibraryCount"
+            isEnabled = "YES">
+         </CommandLineArgument>
       </CommandLineArguments>
       <EnvironmentVariables>
          <EnvironmentVariable
