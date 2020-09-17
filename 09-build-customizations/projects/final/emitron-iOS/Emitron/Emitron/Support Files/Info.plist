@@ -158,8 +158,6 @@
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>SSO_SECRET</key>
-	<string>$(SSO_SECRET)</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Bitter-Bold.ttf</string>

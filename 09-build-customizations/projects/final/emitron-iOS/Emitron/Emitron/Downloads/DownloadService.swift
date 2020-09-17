@@ -210,10 +210,10 @@ extension DownloadService: DownloadAction {
         // The delegate callback will handle deleting the value in
         // the persistence store.
         try currentlyDownloading.forEach { try self.downloadProcessor.cancelDownload($0) }
-        promise(.success(()))
       } catch {
-        promise(.failure(error))
+        print("Couldn't cancel download: \(error)")
       }
+      promise(.success(()))
     }
     .flatMap {
       // Don't have it in the processor, so we just need to
@@ -250,10 +250,10 @@ extension DownloadService: DownloadAction {
         try downloads
           .filter { $0.isDownloaded }
           .forEach { try self.deleteFile(for: $0) }
-        promise(.success(()))
       } catch {
-        promise(.failure(error))
+        print("Couldn't delete download: \(error)")
       }
+      promise(.success(()))
     }
     .flatMap {
       // 3. Delete the persisted record
