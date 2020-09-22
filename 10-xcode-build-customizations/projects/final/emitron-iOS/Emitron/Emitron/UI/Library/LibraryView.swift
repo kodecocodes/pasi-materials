@@ -102,7 +102,7 @@ struct LibraryView: View {
       if ProcessInfo.processInfo.arguments.contains("-debugLibraryCount") {
         Text("\(libraryRepository.contents.count) Fetched")
           .font(.uiLabelBold)
-          .foregroundColor(Color("error"))
+          .foregroundColor(Color.red)
         Spacer()
       }
 
