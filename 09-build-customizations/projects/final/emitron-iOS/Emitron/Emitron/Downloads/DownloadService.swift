@@ -211,7 +211,7 @@ extension DownloadService: DownloadAction {
         // the persistence store.
         try currentlyDownloading.forEach { try self.downloadProcessor.cancelDownload($0) }
       } catch {
-        print("Couldn't cancel download: \(error)")
+        print("Error cancelling download: \(error)")
       }
       promise(.success(()))
     }
@@ -251,7 +251,7 @@ extension DownloadService: DownloadAction {
           .filter { $0.isDownloaded }
           .forEach { try self.deleteFile(for: $0) }
       } catch {
-        print("Couldn't delete download: \(error)")
+        print("Error deleting download: \(error)")
       }
       promise(.success(()))
     }
