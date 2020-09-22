@@ -586,19 +586,20 @@
 		494A79A72465C8C90097E8F4 /* RefreshableTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableTestCase.swift; sourceTree = "<group>"; };
 		8B283DEE23169A1E001F1B17 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		8B28D2B223546D0F005FCC08 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
-		8B7E96DC2357A65F0083DA38 /* ProTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTag.swift; sourceTree = "<group>"; };
-		8B7E96DE2357A66A0083DA38 /* CompletedTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTag.swift; sourceTree = "<group>"; };
 		8BFC74BB23648DF3001979F1 /* ContentPaginatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPaginatable.swift; sourceTree = "<group>"; };
 		8BFC74C22364A9BE001979F1 /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
 		8BFCEF1C23411817003FF72F /* PermissionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsService.swift; sourceTree = "<group>"; };
 		8BFCEF1E2341184A003FF72F /* PermissionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsRequest.swift; sourceTree = "<group>"; };
+		955AFE83251A05BA0072B01B /* CompletedTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedTag.swift; sourceTree = "<group>"; };
+		955AFE84251A05BA0072B01B /* ProTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProTag.swift; sourceTree = "<group>"; };
+		955AFE85251A05BA0072B01B /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		955AFE9B251A3BF90072B01B /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		955AFE9C251A3BFA0072B01B /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		955AFE9D251A3BFA0072B01B /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		955AFE9E251A3BFA0072B01B /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		955CED3224E1A9FC00276B85 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		955CED3624E1AAED00276B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		955CED3824E1AAEF00276B85 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9575AF4F2510802200E23F09 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = SOURCE_ROOT; };
-		9575AF512510863A00E23F09 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = SOURCE_ROOT; };
-		9575AF522510958600E23F09 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = SOURCE_ROOT; };
-		9575AF532510BFD400E23F09 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		95A4513322E224B500D24E56 /* SessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		95F4C33524E5790D008C3E9A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		B5678C61233668B100BCB8A1 /* CircleProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBarView.swift; sourceTree = "<group>"; };
@@ -1240,10 +1241,10 @@
 		22D177032350748E0038333D /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				9575AF532510BFD400E23F09 /* Secrets.xcconfig */,
-				9575AF522510958600E23F09 /* Release.xcconfig */,
-				9575AF512510863A00E23F09 /* Beta.xcconfig */,
-				9575AF4F2510802200E23F09 /* Dev.xcconfig */,
+				955AFE9E251A3BFA0072B01B /* Alpha.xcconfig */,
+				955AFE9B251A3BF90072B01B /* Dev.xcconfig */,
+				955AFE9C251A3BFA0072B01B /* Release.xcconfig */,
+				955AFE9D251A3BFA0072B01B /* Secrets.xcconfig */,
 				22D17707235078030038333D /* Configuration.swift */,
 			);
 			path = Configuration;
@@ -2257,9 +2258,9 @@
 			};
 			name = Release;
 		};
-		9522740024F93C70003B6B71 /* Beta */ = {
+		95A4C71D2517896500211AC2 /* Alpha */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9575AF532510BFD400E23F09 /* Secrets.xcconfig */;
+			baseConfigurationReference = 955AFE9D251A3BFA0072B01B /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2342,9 +2343,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Beta;
+			name = Alpha;
 		};
-		9522740224F93C70003B6B71 /* Beta */ = {
+		95A4C71F2517896500211AC2 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2362,11 +2363,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raywenderlich.app/raywenderlich";
 			};
-			name = Beta;
+			name = Alpha;
 		};
 		B6D7DC3D22C79745006DD325 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9575AF532510BFD400E23F09 /* Secrets.xcconfig */;
+			baseConfigurationReference = 955AFE9D251A3BFA0072B01B /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2432,7 +2433,7 @@
 		};
 		B6D7DC3E22C79745006DD325 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9575AF532510BFD400E23F09 /* Secrets.xcconfig */;
+			baseConfigurationReference = 955AFE9D251A3BFA0072B01B /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2492,7 +2493,7 @@
 		};
 		B6D7DC4022C79745006DD325 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9575AF4F2510802200E23F09 /* Dev.xcconfig */;
+			baseConfigurationReference = 955AFE9B251A3BF90072B01B /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSETCATALOG_COMPILER_APPICON_NAME)";
@@ -2520,7 +2521,7 @@
 		};
 		B6D7DC4122C79745006DD325 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9575AF522510958600E23F09 /* Release.xcconfig */;
+			baseConfigurationReference = 955AFE9C251A3BFA0072B01B /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSETCATALOG_COMPILER_APPICON_NAME)";
@@ -2553,7 +2554,7 @@
 			buildConfigurations = (
 				22D176C423460A060038333D /* Debug */,
 				22D176C523460A060038333D /* Release */,
-				9522740224F93C70003B6B71 /* Beta */,
+				95A4C71F2517896500211AC2 /* Alpha */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2563,7 +2564,7 @@
 			buildConfigurations = (
 				B6D7DC3D22C79745006DD325 /* Debug */,
 				B6D7DC3E22C79745006DD325 /* Release */,
-				9522740024F93C70003B6B71 /* Beta */,
+				95A4C71D2517896500211AC2 /* Alpha */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2573,7 +2574,7 @@
 			buildConfigurations = (
 				B6D7DC4022C79745006DD325 /* Debug */,
 				B6D7DC4122C79745006DD325 /* Release */,
-				9522740124F93C70003B6B71 /* Beta */,
+				95A4C71E2517896500211AC2 /* Alpha */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
