@@ -2249,7 +2249,7 @@
 			};
 			name = Release;
 		};
-		9522740024F93C70003B6B71 /* Beta */ = {
+		95A4C71D2517896500211AC2 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2301,16 +2301,16 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Beta;
+			name = Alpha;
 		};
-		9522740124F93C70003B6B71 /* Beta */ = {
+		95A4C71E2517896500211AC2 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.beta;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.alpha;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = UNKNOWN;
@@ -2323,16 +2323,16 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias.alpha;
 				PRODUCT_MODULE_NAME = Emitron;
 				PRODUCT_NAME = raywenderlich;
 				PROVISIONING_PROFILE_SPECIFIER = "Emitron Test Release Build";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Beta;
+			name = Alpha;
 		};
-		9522740224F93C70003B6B71 /* Beta */ = {
+		95A4C71F2517896500211AC2 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2350,7 +2350,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raywenderlich.app/raywenderlich";
 			};
-			name = Beta;
+			name = Alpha;
 		};
 		B6D7DC3D22C79745006DD325 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2411,7 +2411,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -2467,7 +2467,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2533,7 +2533,7 @@
 			buildConfigurations = (
 				22D176C423460A060038333D /* Debug */,
 				22D176C523460A060038333D /* Release */,
-				9522740224F93C70003B6B71 /* Beta */,
+				95A4C71F2517896500211AC2 /* Alpha */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2543,7 +2543,7 @@
 			buildConfigurations = (
 				B6D7DC3D22C79745006DD325 /* Debug */,
 				B6D7DC3E22C79745006DD325 /* Release */,
-				9522740024F93C70003B6B71 /* Beta */,
+				95A4C71D2517896500211AC2 /* Alpha */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2553,7 +2553,7 @@
 			buildConfigurations = (
 				B6D7DC4022C79745006DD325 /* Debug */,
 				B6D7DC4122C79745006DD325 /* Release */,
-				9522740124F93C70003B6B71 /* Beta */,
+				95A4C71E2517896500211AC2 /* Alpha */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
