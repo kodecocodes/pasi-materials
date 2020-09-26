@@ -57,13 +57,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // swiftlint:disable:next force_try
     let dbPool = try! setupDatabase(application)
     persistenceStore = PersistenceStore(db: dbPool)
-
-    let ssoSecret = Bundle.main.object(forInfoDictionaryKey: "SSO_SECRET")
-      as? String ?? ""
-
     guardpost = Guardpost(baseUrl: "https://accounts.raywenderlich.com",
                           urlScheme: "com.razeware.emitron://",
-                          ssoSecret: ssoSecret,
+                          ssoSecret: "",
                           persistenceStore: persistenceStore)
     
     sessionController = SessionController(guardpost: guardpost)

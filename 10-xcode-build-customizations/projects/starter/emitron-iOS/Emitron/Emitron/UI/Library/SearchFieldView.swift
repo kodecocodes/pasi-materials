@@ -45,9 +45,9 @@ struct SearchFieldView: View {
         .foregroundColor(.searchFieldIcon)
         .frame(height: 25)
       
-      TextField(Constants.search, text: $searchString) {
+      TextField(Constants.search, text: $searchString, onCommit: {
         self.action(self.searchString)
-      }
+      })
         .keyboardType(.webSearch)
         .font(.uiBodyCustom)
         .foregroundColor(.searchFieldText)
