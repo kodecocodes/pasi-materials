@@ -590,6 +590,7 @@
 		8BFCEF1C23411817003FF72F /* PermissionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsService.swift; sourceTree = "<group>"; };
 		8BFCEF1E2341184A003FF72F /* PermissionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsRequest.swift; sourceTree = "<group>"; };
 		950E9FD525208ECA0096AC2E /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = SOURCE_ROOT; };
+		950EA03E252311F00096AC2E /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = SOURCE_ROOT; };
 		955AFE83251A05BA0072B01B /* CompletedTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedTag.swift; sourceTree = "<group>"; };
 		955AFE84251A05BA0072B01B /* ProTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProTag.swift; sourceTree = "<group>"; };
 		955AFE85251A05BA0072B01B /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
@@ -1228,6 +1229,7 @@
 		22D177032350748E0038333D /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				950EA03E252311F00096AC2E /* Secrets.xcconfig */,
 				950E9FD525208ECA0096AC2E /* Alpha.xcconfig */,
 				955AFF30251DD7FF0072B01B /* Dev.xcconfig */,
 				22D17707235078030038333D /* Configuration.swift */,
@@ -2255,6 +2257,7 @@
 		};
 		95A4C71D2517896500211AC2 /* Alpha */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950EA03E252311F00096AC2E /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2361,6 +2364,7 @@
 		};
 		B6D7DC3D22C79745006DD325 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950EA03E252311F00096AC2E /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2426,6 +2430,7 @@
 		};
 		B6D7DC3E22C79745006DD325 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950EA03E252311F00096AC2E /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

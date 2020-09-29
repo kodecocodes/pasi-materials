@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SSO_SECRET</key>
+	<string>$(SSO_SECRET)</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>APP_TOKEN</key>
 	<string>$(APP_TOKEN)</string>
 	<key>CFBundleDevelopmentRegion</key>
