@@ -2420,7 +2420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias;
 				PRODUCT_MODULE_NAME = Emitron;
 				PRODUCT_NAME = raywenderlich;
-				PROVISIONING_PROFILE_SPECIFIER = "Emitron Test Release Build";
+				PROVISIONING_PROFILE_SPECIFIER = "Emitron App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
