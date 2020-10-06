@@ -250,9 +250,9 @@
 		8BFC74C32364A9BE001979F1 /* ContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC74C22364A9BE001979F1 /* ContentScreen.swift */; };
 		8BFCEF1D23411817003FF72F /* PermissionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCEF1C23411817003FF72F /* PermissionsService.swift */; };
 		8BFCEF1F2341184A003FF72F /* PermissionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCEF1E2341184A003FF72F /* PermissionsRequest.swift */; };
-		955AFE90251A2DDC0072B01B /* CompletedTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AFE8D251A2DDB0072B01B /* CompletedTag.swift */; };
-		955AFE91251A2DDC0072B01B /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AFE8E251A2DDC0072B01B /* TagView.swift */; };
-		955AFE92251A2DDC0072B01B /* ProTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AFE8F251A2DDC0072B01B /* ProTag.swift */; };
+		955AFE86251A05BB0072B01B /* CompletedTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AFE83251A05BA0072B01B /* CompletedTag.swift */; };
+		955AFE87251A05BB0072B01B /* ProTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AFE84251A05BA0072B01B /* ProTag.swift */; };
+		955AFE88251A05BB0072B01B /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AFE85251A05BA0072B01B /* TagView.swift */; };
 		955CED3524E1AAED00276B85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 955CED3724E1AAED00276B85 /* Localizable.strings */; };
 		95A4513522E224B500D24E56 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4513322E224B500D24E56 /* SessionController.swift */; };
 		B5678C62233668B100BCB8A1 /* CircleProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5678C61233668B100BCB8A1 /* CircleProgressBarView.swift */; };
@@ -589,9 +589,9 @@
 		8BFC74C22364A9BE001979F1 /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
 		8BFCEF1C23411817003FF72F /* PermissionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsService.swift; sourceTree = "<group>"; };
 		8BFCEF1E2341184A003FF72F /* PermissionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsRequest.swift; sourceTree = "<group>"; };
-		955AFE8D251A2DDB0072B01B /* CompletedTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedTag.swift; sourceTree = "<group>"; };
-		955AFE8E251A2DDC0072B01B /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
-		955AFE8F251A2DDC0072B01B /* ProTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProTag.swift; sourceTree = "<group>"; };
+		955AFE83251A05BA0072B01B /* CompletedTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedTag.swift; sourceTree = "<group>"; };
+		955AFE84251A05BA0072B01B /* ProTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProTag.swift; sourceTree = "<group>"; };
+		955AFE85251A05BA0072B01B /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		955CED3224E1A9FC00276B85 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		955CED3624E1AAED00276B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		955CED3824E1AAEF00276B85 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -634,7 +634,7 @@
 		B6C4F3DE22E710640087ED10 /* PersistenceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceStore.swift; sourceTree = "<group>"; };
 		B6D4529722CAB3F600BFB812 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		B6D4529B22CAB67900BFB812 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		B6D7DC2B22C79743006DD325 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D7DC2B22C79743006DD325 /* raywenderlich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raywenderlich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D7DC2E22C79743006DD325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D7DC3022C79743006DD325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6D7DC3422C79745006DD325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1169,16 +1169,6 @@
 			path = "Download Icon";
 			sourceTree = "<group>";
 		};
-		22C6410923FA904500CBFDE5 /* Tags */ = {
-			isa = PBXGroup;
-			children = (
-				955AFE8D251A2DDB0072B01B /* CompletedTag.swift */,
-				955AFE8F251A2DDC0072B01B /* ProTag.swift */,
-				955AFE8E251A2DDC0072B01B /* TagView.swift */,
-			);
-			path = Tags;
-			sourceTree = "<group>";
-		};
 		22C914C023BD7E6700A05E00 /* Service Adapters */ = {
 			isa = PBXGroup;
 			children = (
@@ -1336,6 +1326,16 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
+		955AFE82251A05BA0072B01B /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				955AFE83251A05BA0072B01B /* CompletedTag.swift */,
+				955AFE84251A05BA0072B01B /* ProTag.swift */,
+				955AFE85251A05BA0072B01B /* TagView.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
 		95CD793D22F0C0890080C407 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1438,7 +1438,7 @@
 		B6D7DC2C22C79743006DD325 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6D7DC2B22C79743006DD325 /* .app */,
+				B6D7DC2B22C79743006DD325 /* raywenderlich.app */,
 				22D176BD23460A060038333D /* emitronTests.xctest */,
 			);
 			name = Products;
@@ -1652,6 +1652,7 @@
 		B6FC15AC22CB52570078CEDB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				955AFE82251A05BA0072B01B /* Tags */,
 				B6C4F3D122E6ECA40087ED10 /* CheckmarkView.swift */,
 				B595654323130E4C00A3FF44 /* CustomToggleView.swift */,
 				B66778AB2305D2D4003EEBAB /* MainButtonView.swift */,
@@ -1659,7 +1660,6 @@
 				229F0AC223BB27820004DD4F /* Content Detail */,
 				229F0AC123BB27790004DD4F /* Content List */,
 				22C6410423F893CB00CBFDE5 /* Download Icon */,
-				22C6410923FA904500CBFDE5 /* Tags */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -1738,7 +1738,7 @@
 				22C0512C23A4CBB9004D1223 /* GRDBCombine */,
 			);
 			productName = Emitron;
-			productReference = B6D7DC2B22C79743006DD325 /* .app */;
+			productReference = B6D7DC2B22C79743006DD325 /* raywenderlich.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1949,7 +1949,6 @@
 				8BFC74BC23648DF3001979F1 /* ContentPaginatable.swift in Sources */,
 				22E2267823CA200E00A83601 /* ChildContentsViewModel.swift in Sources */,
 				22C6410323F891D100CBFDE5 /* ArrowInCircleView.swift in Sources */,
-				955AFE90251A2DDC0072B01B /* CompletedTag.swift in Sources */,
 				22C0513C23A4FBB8004D1223 /* Domain+Persistence.swift in Sources */,
 				223D77AD23B0C0A2005BE95D /* Attachment.swift in Sources */,
 				B5678C62233668B100BCB8A1 /* CircleProgressBarView.swift in Sources */,
@@ -1990,7 +1989,6 @@
 				223D77A523B06FFA005BE95D /* AttachmentAdapter.swift in Sources */,
 				223D77B523B0C0CA005BE95D /* Domain.swift in Sources */,
 				223D77B723B0C0D1005BE95D /* Group.swift in Sources */,
-				955AFE91251A2DDC0072B01B /* TagView.swift in Sources */,
 				B6D8EB2722CBA86000DE29AF /* ProgressionsRequest.swift in Sources */,
 				B6D7DC5522C7B408006DD325 /* Font+Extensions.swift in Sources */,
 				22BFE75C23D9AF4100495BA9 /* MessageBarView.swift in Sources */,
@@ -2003,6 +2001,7 @@
 				22C4EADD23DB8B33001A3FDA /* WatchStatsRequest.swift in Sources */,
 				B6FC15C522CB55D30078CEDB /* JSONAPIError.swift in Sources */,
 				22BFE75823D9910600495BA9 /* MessageBus.swift in Sources */,
+				955AFE87251A05BB0072B01B /* ProTag.swift in Sources */,
 				22B8266423AF5CF900D4BA23 /* BookmarkAdapter.swift in Sources */,
 				22C640F623F604E700CBFDE5 /* View+If.swift in Sources */,
 				223D77B323B0C0C2005BE95D /* Content.swift in Sources */,
@@ -2029,6 +2028,7 @@
 				22B8266E23B0617800D4BA23 /* ContentDomainAdapter.swift in Sources */,
 				22C640FA23F609B600CBFDE5 /* SearchFieldView.swift in Sources */,
 				22BE654F23F1F66E00717369 /* Comparable+Clamped.swift in Sources */,
+				955AFE86251A05BB0072B01B /* CompletedTag.swift in Sources */,
 				B6C4F3D222E6ECA50087ED10 /* CheckmarkView.swift in Sources */,
 				22B8265D23AF37FE00D4BA23 /* ProgressionAdapter.swift in Sources */,
 				222C0AB023DF554E00D65EBD /* SettingsOption.swift in Sources */,
@@ -2115,7 +2115,6 @@
 				B60612B922CCE352007FC852 /* Parameters.swift in Sources */,
 				B6DF2FCF22CA89670081A3A3 /* GuardpostConstants.swift in Sources */,
 				22C0513E23A4FBC2004D1223 /* ContentDomain+Persistence.swift in Sources */,
-				955AFE92251A2DDC0072B01B /* ProTag.swift in Sources */,
 				22B8265923AF109800D4BA23 /* EntityAdapter.swift in Sources */,
 				B6C4F3DF22E710640087ED10 /* PersistenceStore.swift in Sources */,
 				22C0513423A4FB8E004D1223 /* Bookmark+Persistence.swift in Sources */,
@@ -2144,6 +2143,7 @@
 				2213194323E4E86900F15816 /* ReloadView.swift in Sources */,
 				B6FC15C322CB55CC0078CEDB /* JSONAPIRelationship.swift in Sources */,
 				229F0AB723BACC320004DD4F /* ContentSummaryState+Fetchable.swift in Sources */,
+				955AFE88251A05BB0072B01B /* TagView.swift in Sources */,
 				B6C4F3D722E6EE5B0087ED10 /* Filter.swift in Sources */,
 				222EEF7F23CEC63400B025A4 /* ProgressEngine.swift in Sources */,
 				B621DD5122F5EEC500A1F27A /* DataManager.swift in Sources */,
@@ -2310,7 +2310,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -2368,7 +2368,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2377,7 +2377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = UNKNOWN;
@@ -2393,7 +2393,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias;
 				PRODUCT_MODULE_NAME = Emitron;
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = raywenderlich;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2404,7 +2404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = UNKNOWN;
@@ -2419,7 +2419,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias;
 				PRODUCT_MODULE_NAME = Emitron;
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = raywenderlich;
 				PROVISIONING_PROFILE_SPECIFIER = "Emitron Test Release Build";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
