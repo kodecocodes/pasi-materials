@@ -634,7 +634,7 @@
 		B6C4F3DE22E710640087ED10 /* PersistenceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceStore.swift; sourceTree = "<group>"; };
 		B6D4529722CAB3F600BFB812 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		B6D4529B22CAB67900BFB812 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		B6D7DC2B22C79743006DD325 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D7DC2B22C79743006DD325 /* raywenderlich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raywenderlich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D7DC2E22C79743006DD325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D7DC3022C79743006DD325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6D7DC3422C79745006DD325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1438,7 +1438,7 @@
 		B6D7DC2C22C79743006DD325 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6D7DC2B22C79743006DD325 /* .app */,
+				B6D7DC2B22C79743006DD325 /* raywenderlich.app */,
 				22D176BD23460A060038333D /* emitronTests.xctest */,
 			);
 			name = Products;
@@ -1738,7 +1738,7 @@
 				22C0512C23A4CBB9004D1223 /* GRDBCombine */,
 			);
 			productName = Emitron;
-			productReference = B6D7DC2B22C79743006DD325 /* .app */;
+			productReference = B6D7DC2B22C79743006DD325 /* raywenderlich.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1748,7 +1748,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
 					22D176BC23460A060038333D = {
@@ -2277,6 +2277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2327,8 +2328,8 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias.alpha;
 				PRODUCT_MODULE_NAME = Emitron;
-				PRODUCT_NAME = "";
-				PROVISIONING_PROFILE_SPECIFIER = "Emitron Test Release Build";
+				PRODUCT_NAME = raywenderlich;
+				PROVISIONING_PROFILE_SPECIFIER = "Emitron App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2382,6 +2383,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2447,6 +2449,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2498,7 +2501,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias.dev;
 				PRODUCT_MODULE_NAME = Emitron;
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = raywenderlich;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2524,8 +2527,8 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.emitron.pias;
 				PRODUCT_MODULE_NAME = Emitron;
-				PRODUCT_NAME = "";
-				PROVISIONING_PROFILE_SPECIFIER = "Emitron Test Release Build";
+				PRODUCT_NAME = raywenderlich;
+				PROVISIONING_PROFILE_SPECIFIER = "Emitron App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
