@@ -1,0 +1,10 @@
+scheme("Emitron")
+
+open_report(false)
+
+clean(false) # TEMP for testing
+
+# Enable skip_build to skip debug builds for faster test performance
+skip_build(true)
+
+devices(["iPhone 12 Pro"])

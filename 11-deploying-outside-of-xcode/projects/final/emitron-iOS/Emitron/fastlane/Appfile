@@ -1,0 +1,6 @@
+app_identifier("com.raywenderlich.emitron.pias") # The bundle identifier of your app
+apple_id("keeganrush@gmail.com") # Your Apple email address
+
+team_id("MC7X4Q9BS6") # Developer Portal Team ID
+
+itc_team_id("118078812")

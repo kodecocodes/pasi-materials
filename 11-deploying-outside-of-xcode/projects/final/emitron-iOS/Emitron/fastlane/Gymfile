@@ -1,0 +1,7 @@
+scheme("Emitron")
+
+clean(false) # TEMP for testing
+
+output_directory("./")
+
+export_method("app-store")
