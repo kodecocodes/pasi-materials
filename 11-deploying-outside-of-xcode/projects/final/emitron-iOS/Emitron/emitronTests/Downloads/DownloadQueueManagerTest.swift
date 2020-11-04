@@ -127,19 +127,6 @@ class DownloadQueueManagerTest: XCTestCase {
     }
   }
   
-  func testPendingStreamSendsNewDownloads() throws {
-    let recorder = queueManager.pendingStream.record()
-    
-    var download = try sampleDownload()
-    try database.write { db in
-      try download.save(db)
-    }
-    
-    let downloads = try wait(for: recorder.next(2), timeout: 1, description: "PendingDownloads")
-    
-    XCTAssertEqual([nil, download], downloads.map { $0?.download })
-  }
-  
   func testPendingStreamSendingPreExistingDownloads() throws {
     var download = try sampleDownload()
     try database.write { db in
