@@ -149,6 +149,44 @@ class PersistenceStore_DownloadsTest: XCTestCase {
     wait(for: [collectionExpectation], timeout: 1)
   }
   
+  func testTransitionFinalEpisdeToDownloadedUpdatesCollection() throws {
+    let collection = try populateSampleCollection()
+    let episodes = getAllContents().filter { $0.id != collection.id }
+    
+    var collectionDownload = PersistenceMocks.download(for: collection)
+    let episodeDownloads = episodes.map(PersistenceMocks.download)
+    
+    try database.write { db in
+      try collectionDownload.save(db)
+    }
+    
+    try database.write { db in
+      try episodeDownloads.forEach { download in
+        var mutableDownload = download
+        try mutableDownload.save(db)
+      }
+    }
+    
+    try episodeDownloads.forEach {
+      try persistenceStore.transitionDownload(withId: $0.id, to: .complete)
+    }
+    
+    let collectionExpectation = XCTestExpectation()
+    
+    persistenceStore.workerQueue.async {
+      let updatedCollectionDownload = try! self.database.read { db in // swiftlint:disable:this force_try
+        try! Download.filter(key: collectionDownload.id).fetchOne(db) // swiftlint:disable:this force_try
+      }
+      
+      XCTAssertEqual(.complete, updatedCollectionDownload?.state)
+      XCTAssertEqual(1, updatedCollectionDownload?.progress)
+      
+      collectionExpectation.fulfill()
+    }
+    
+    wait(for: [collectionExpectation], timeout: 2)
+  }
+  
   func testTransitionNonFinalEpisodeToDownloadedUpdatesCollection() throws {
     let collection = try populateSampleCollection()
     let episodes = getAllContents().filter { $0.id != collection.id }

@@ -1,0 +1,18 @@
+# 1
+default_platform(:ios)
+
+# 2
+platform :ios do
+
+  # 3
+  lane :build do
+    # 4
+    Dir.chdir('..') do
+      sh 'xcodebuild -resolvePackageDependencies'
+    end
+
+    #5
+    gym
+  end
+  
+end
