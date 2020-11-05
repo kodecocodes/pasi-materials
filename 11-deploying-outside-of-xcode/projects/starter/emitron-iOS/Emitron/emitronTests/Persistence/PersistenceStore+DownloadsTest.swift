@@ -407,17 +407,6 @@ class PersistenceStore_DownloadsTest: XCTestCase {
     XCTAssertEqual(2, getAllDownloads().count)
   }
   
-  func testCreateDownloadsForCollectionCreateManyDownloads() throws {
-    let collection = try populateSampleCollection()
-    
-    XCTAssertEqual(0, getAllDownloads().count)
-    
-    try createDownloads(for: collection)
-    
-    XCTAssertEqual(getAllContents().count, getAllDownloads().count)
-    XCTAssertGreaterThan(getAllContents().count, 0)
-  }
-  
   // MARK: - Queue management
   func testDownloadListDoesNotContainEpisodes() throws {
     let collection = try populateSampleCollection()

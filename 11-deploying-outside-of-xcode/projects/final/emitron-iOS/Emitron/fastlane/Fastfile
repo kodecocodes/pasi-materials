@@ -13,7 +13,6 @@ platform :ios do
     #cert
     #sigh
 
-    #5
     #gym
   end
 
