@@ -9,8 +9,8 @@ platform :ios do
 
   # 4
   lane :build do
-    scan
-    #cert
+    #scan
+    cert
     #sigh
 
     #gym
