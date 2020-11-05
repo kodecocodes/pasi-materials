@@ -15,11 +15,13 @@ platform :ios do
     gym
   end
 
+  # 1
   lane :alpha do
-    build
+#    build
     testflight
   end
 
+  # 2
   lane :release do
     build
     deliver
