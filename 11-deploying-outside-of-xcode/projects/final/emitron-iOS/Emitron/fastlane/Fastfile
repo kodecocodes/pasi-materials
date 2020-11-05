@@ -17,7 +17,7 @@ platform :ios do
 
   # 1
   lane :alpha do
-#    build
+    build
     testflight
   end
 
