@@ -9,11 +9,10 @@ platform :ios do
 
   # 4
   lane :build do
-    #scan
+    scan
     cert
-    #sigh
-
-    #gym
+    sigh
+    gym
   end
 
   lane :alpha do

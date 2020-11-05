@@ -1,7 +1,7 @@
 # 1
 scheme("Emitron")
 # 2
-clean(false)
+clean(true)
 # 3
 output_directory("./")
 # 4
