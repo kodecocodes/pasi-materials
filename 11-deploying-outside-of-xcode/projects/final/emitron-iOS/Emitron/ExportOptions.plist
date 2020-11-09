@@ -4,14 +4,16 @@
 <plist version="1.0">
 <!-- 2 -->
 <dict>
-<!-- 3 -->
+	<!-- 3 -->
 	<key>method</key>
 	<string>app-store</string>
-<!-- 4 -->
+	<!-- 4 -->
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.raywenderlich.emitron.pias</key>
 		<string>Emitron App Store</string>
 	</dict>
+	<key>destination</key>
+	<string>upload</string>
 </dict>
 </plist>
