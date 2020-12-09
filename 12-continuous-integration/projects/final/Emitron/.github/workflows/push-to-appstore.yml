@@ -1,0 +1,31 @@
+name: Upload to App Store Connect
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Update fastlane
+      run: |
+        bundle install
+    - name: Execute fastlane
+      env:
+        FASTLANE_SESSION: ${{ secrets.FASTLANE_SESSION }}
+        FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+#        FASTLANE_USER: engineering@razeware.com
+#        FASTLANE_SESSION: ${{ secrets.FASTLANE_SESSION }}
+#        MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+#        MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+#        FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT: 5
+#        FASTLANE_XCODEBUILD_SETTINGS_RETRIES: 5
+      run: |
+        bundle exec fastlane -v
+        bundle exec fastlane release
+

@@ -1,0 +1,23 @@
+name: Run tests
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+#    - name: Switch to Xcode 11.4
+#      run: sudo xcode-select --switch /Applications/Xcode_11.4.app
+    - name: Install fastlane
+      run: |
+        bundle install
+    - name: Execute fastlane
+#      env:
+#        FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT: 600
+#        FASTLANE_XCODEBUILD_SETTINGS_RETRIES: 5
+      run: |
+        bundle exec fastlane -v
+        bundle exec fastlane test
+
