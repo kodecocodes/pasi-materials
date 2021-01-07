@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CombineExpectations",
+        "repositoryURL": "https://github.com/groue/CombineExpectations.git",
+        "state": {
+          "branch": null,
+          "revision": "96d5604151c94b21fbca6877b237e80af9e821dd",
+          "version": "0.5.0"
+        }
+      },
+      {
+        "package": "GRDB",
+        "repositoryURL": "https://github.com/groue/GRDB.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "5ee47c3c2765bdfde0f44c2ea9a263f6aa252d63",
+          "version": "4.14.0"
+        }
+      },
+      {
+        "package": "GRDBCombine",
+        "repositoryURL": "https://github.com/groue/GRDBCombine",
+        "state": {
+          "branch": null,
+          "revision": "cbae47a79921fb8df318f31b9c51f9a1245373e6",
+          "version": "0.8.1"
+        }
+      },
+      {
+        "package": "KeychainSwift",
+        "repositoryURL": "https://github.com/evgenyneu/keychain-swift",
+        "state": {
+          "branch": null,
+          "revision": "d9b76fba09c2eb5c0bb9312092d309c833996cd2",
+          "version": "18.0.0"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "0efb20f022501327f4028aa9bf7cd4a0d390bea0",
+          "version": "5.15.2"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON",
+        "state": {
+          "branch": null,
+          "revision": "2b6054efa051565954e1d2b9da831680026cd768",
+          "version": "5.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
