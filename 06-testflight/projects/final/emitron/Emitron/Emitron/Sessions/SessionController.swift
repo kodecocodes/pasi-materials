@@ -71,7 +71,7 @@ class SessionController: NSObject, UserModelController, ObservablePrePostFactoOb
   }
   let objectDidChange = ObservableObjectPublisher()
   
-  private let guardpost: Guardpost
+  private let guardpost: Guardpost!
   private let connectionMonitor = NWPathMonitor()
   private(set) var client: RWAPI
   private(set) var permissionsService: PermissionsService
@@ -106,7 +106,7 @@ class SessionController: NSObject, UserModelController, ObservablePrePostFactoOb
   init(guardpost: Guardpost) {
     dispatchPrecondition(condition: .onQueue(.main))
     
-    self.guardpost = guardpost
+    self.guardpost = nil
 
     let user = User.backdoor ?? guardpost.currentUser
     client = RWAPI(authToken: user?.token ?? "")
