@@ -1,0 +1,8 @@
+# 1
+scheme("Emitron")
+# 2
+clean(true)
+# 3
+output_directory("./")
+# 4
+export_method("app-store")

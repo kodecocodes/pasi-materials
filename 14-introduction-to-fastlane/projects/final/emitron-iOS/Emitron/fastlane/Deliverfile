@@ -1,0 +1,6 @@
+# 1
+skip_metadata(true)
+# 2
+skip_screenshots(true)
+# 3
+force(true)
