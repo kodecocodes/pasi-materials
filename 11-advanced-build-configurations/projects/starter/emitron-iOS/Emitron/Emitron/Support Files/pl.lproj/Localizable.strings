@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  Emitron
+
+  Created by Keegan Rush on 10/08/2020.
+  Copyright © 2020 Razeware. All rights reserved.
+*/
+
+"filters" = "Filtry";
+"clearAll" = "Wyczyść wszystko";
+"search" = "Szukaj…";
+"loading" = "Ładowanie…";
+"library" = "Biblioteka";
+"myTutorials" = "Moje lekcje";
+"downloads" = "Pobrane";
+"newest" =  "Najnowsze";
+"popularity" = "Popularność";
+"tutorials" = "Tutoriale";
+"settings" = "Ustawienia";
+
+// Onboarding
+"login" = "Login";
+
+// Other
+"today" = "Dzisiaj";
+"by" = "Autor";
+"yes" = "Tak";
+"no" = "Nie";
+
+// Messaging
+"bookmarkCreated" = "Treść została pomyślnie dodana do zakładek.";
+"bookmarkDeleted" = "Zakładka została pomyślnie usunięta.";
+"bookmarkCreatedError" = "Wystąpił problem podczas tworzenia zakładki";
+"bookmarkDeletedError" = "Wystąpił problem podczas usuwania zakładki";
+
+"progressRemoved" = "Postęp został pomyślnie usunięty.";
+"progressMarkedAsComplete" = "Treść oznaczona jako ukończona.";
+"progressRemovedError" = "Wystąpił problem podczas usuwania postępu.";
+"progressMarkedAsCompleteError" = "Wystąpił problem z oznaczeniem treści jako ukończonej.";
+
+"downloadRequestedSuccessfully" = "Pobierz w kolejce.";
+"downloadRequestedButQueueInactive" = "Pobieranie rozpocznie się, gdy będzie dostępne Wi-Fi.";
+"downloadNotPermitted" = "Pobieranie niedozwolone.";
+"downloadContentNotFound" = "Nieprawidłowe żądanie pobierania.";
+"downloadRequestProblem" = "Problem z żądaniem pobrania.";
+"downloadCancelled" = "Pobieranie anulowane.";
+"downloadDeleted" = "Pobieranie usunięte.";
+"downloadReset" = "Reset pobierania.";
+"downloadUnspecifiedProblem" = "Problem z akcją pobierania.";
+"downloadUnableToCancel" = "Nie można anulować pobierania.";
+"downloadUnableToDelete" = "Nie można usunąć pobranego pliku.";
+
+"simultaneousStreamsError" = "Możesz przesyłać strumieniowo tylko na jednym urządzeniu w danym momencie.";
+
+"downloadedContentNotFound" = "Nie można znaleźć pliku do pobrania.";
+
+"videoPlaybackCannotStreamWhenOffline" = "Nie można przesyłać strumieniowo wideo w trybie offline.";
+"videoPlaybackInvalidPermissions" = "Nie masz wymaganych uprawnień do oglądania tego wideo.";
+"videoPlaybackExpiredPermissions" = "Pobieranie wygasło. Połącz się ponownie z Internetem w celu ponownej weryfikacji.";
+
+"appIconUpdatedSuccessfully" = "Ikona Twojej aplikacji została zaktualizowana!";
+"appIconUpdateProblem" = "Wystąpił problem z aktualizacją ikony aplikacji.";
+
+// Settings screens
+"settingsPlaybackSpeedLabel" = "Szybkość odtwarzania wideo";
+"settingsWifiOnlyDownloadsLabel" = "Pobieranie (tylko Wi-Fi)";
+"settingsDownloadQualityLabel" = "Jakość pobierania";
+"settingsClosedCaptionOnLabel" = "Napisy";
+
+// Detail View
+"detailContentLockedCosPro" = "Zaktualizuj swoje konto, aby oglądać ten i inne kursy Pro";
+
+// Pull-to-refresh
+"pullToRefreshPullMessage" = "Pociągnij, aby odświeżyć";
+"pullToRefreshLoadingMessage" = "Ładowanie…";
+
+// And more
+"watchAnytime" = "Oglądaj zawsze i wszędzie";
+"watchThousands" = "Obejrzyj ponad 3000 samouczków wideo \ poza iPhonem i iPadem.";
+"onTheGo" = "Zabierz swoje filmy wideo \ nw drogę";
+"watchOffline" = "Pobieraj i oglądaj filmy - nawet \ nw trybie offline.";
+"signIn" = "Zaloguj się";
+"noAccess" = "Brak dostępu";
+"MembersOnly" = "Aplikacja raywenderlich jest dostępna tylko dla członków.";
+"signOut" = "Wyloguj się";
+"showHide" = "Pokaż / Ukryj";
+"postNew" = "Opublikuj nową wiadomość";
+"forceLogout" = "Wymuś wylogowanie?";
+"logout" = "Wyloguj się";
+"delete" = "Usuń";
+"noConnection" = "Brak połączenia";
+"checkConnection" = "Sprawdź połączenie internetowe i spróbuj ponownie.";
+"wentWrong" = "Coś poszło nie tak.";
+"tryAgain" = "Spróbuj ponownie.";
+"reload" = "Odśwież";
+"hide" = "Hide";
+"show" = "Pokaż";
+"toggle" = "Przełącz";
+"filterLibrary" = "Biblioteka filtrów";
+"libraries" = "Ta aplikacja korzysta z wielu fantastycznych bibliotek innych firm. Poniżej możesz zobaczyć szczegóły i ich licencje.";
+"licenses" = "Licencje na oprogramowanie";
+"appIcon" = "Ikona aplikacji";
+"loggedInAs" = "Zalogowany jako";
+"courseEpisodes" = "Odcinki kursu";
+"proCourse" = "Kurs Pro";
+"inProgress" = "W toku";
+"completed" = "Ukończone";
+"bookmarked" = "Zapisany";

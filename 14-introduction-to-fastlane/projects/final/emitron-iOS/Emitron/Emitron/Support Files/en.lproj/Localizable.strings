@@ -1,0 +1,109 @@
+/* 
+  Localizable.strings
+  Emitron
+
+  Created by Keegan Rush on 10/08/2020.
+  Copyright © 2020 Razeware. All rights reserved.
+*/
+
+"filters" = "Filters";
+"clearAll" = "Clear All";
+"search" = "Search…";
+"loading" = "Loading…";
+"library" = "Library";
+"myTutorials" = "My Tutorials";
+"downloads" = "Downloads";
+"newest" =  "Newest";
+"popularity" = "Popularity";
+"tutorials" = "Tutorials";
+"settings" = "Settings";
+
+// Onboarding
+"login" = "Login";
+
+// Other
+"today" = "Today";
+"by" = "By";
+"yes" = "Yes";
+"no" = "No";
+
+
+// Messaging
+"bookmarkCreated" = "Content bookmarked successfully.";
+"bookmarkDeleted" = "Bookmark removed successfully.";
+"bookmarkCreatedError" = "There was a problem creating the bookmark";
+"bookmarkDeletedError" = "There was a problem deleting the bookmark";
+
+"progressRemoved" = "Progress removed successfully.";
+"progressMarkedAsComplete" = "Content marked as complete.";
+"progressRemovedError" = "There was a problem removing progress.";
+"progressMarkedAsCompleteError" = "There was a problem marking content as complete.";
+
+"downloadRequestedSuccessfully" = "Download enqueued.";
+"downloadRequestedButQueueInactive" = "Download will begin when WiFi available.";
+"downloadNotPermitted" = "Download not permitted.";
+"downloadContentNotFound" = "Invalid download request.";
+"downloadRequestProblem" = "Problem requesting download.";
+"downloadCancelled" = "Download cancelled.";
+"downloadDeleted" = "Download deleted.";
+"downloadReset" = "Download reset.";
+"downloadUnspecifiedProblem" = "Problem with download action.";
+"downloadUnableToCancel" = "Unable to cancel download.";
+"downloadUnableToDelete" = "Unable to delete download.";
+
+"simultaneousStreamsError" = "You can only stream on one device at a time.";
+
+"downloadedContentNotFound" = "Unable to find download.";
+
+"videoPlaybackCannotStreamWhenOffline" = "Cannot stream video when offline.";
+"videoPlaybackInvalidPermissions" = "You don't have the required permissions to view this video.";
+"videoPlaybackExpiredPermissions" = "Download expired. Please reconnect to the internet to reverify.";
+
+"appIconUpdatedSuccessfully" = "You app icon has been updated!";
+"appIconUpdateProblem" = "There was a problem updating the app icon.";
+
+// Settings screens
+"settingsPlaybackSpeedLabel" = "Video Playback Speed";
+"settingsWifiOnlyDownloadsLabel" = "Downloads (WiFi only)";
+"settingsDownloadQualityLabel" = "Downloads Quality";
+"settingsClosedCaptionOnLabel" = "Subtitles";
+
+// Detail View
+"detailContentLockedCosPro" = "Upgrade your account to watch this and other Pro courses";
+
+// Pull-to-refresh
+"pullToRefreshPullMessage" = "Pull to refresh";
+"pullToRefreshLoadingMessage" = "Loading…";
+
+// And more
+"watchAnytime" = "Watch anytime,\nanywhere";
+"watchThousands" = "Watch over 3,000+ video tutorials\non iPhone and iPad.";
+"onTheGo" = "Take your videos on\nthe go";
+"watchOffline" = "Download and watch videos — even\nwhen you’re offline.";
+"signIn" = "Sign In";
+"noAccess" = "No access";
+"membersOnly" = "The raywenderlich app is only available to members.";
+"signOut" = "Sign Out";
+"showHide" = "Show/Hide";
+"postNew" = "Post new message";
+"forceLogout" = "Force Logout?";
+"logout" = "Logout";
+"delete" = "Delete";
+"noConnection" = "No Connection";
+"checkConnection" = "Please check internet connection and try again.";
+"wentWrong" = "Something went wrong.";
+"tryAgain" = "Please try again.";
+"reload" = "Reload";
+"hide" = "Hide";
+"show" = "Show";
+"toggle" = "Toggle";
+"filterLibrary" = "Filter Library";
+"libraries" = "This app uses a selection of fantastic 3rd-party libraries. You can see details and their licenses below.";
+"licenses" = "Software Licenses";
+"appIcon" = "App Icon";
+"loggedInAs" = "Logged in as";
+"courseEpisodes" = "Course Episodes";
+"proCourse" = "Pro Course";
+"inProgress" = "In Progress";
+"completed" = "Completed";
+"bookmarked" = "Bookmarked";
