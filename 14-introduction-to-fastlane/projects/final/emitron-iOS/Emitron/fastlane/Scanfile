@@ -1,0 +1,5 @@
+# 1
+scheme("Emitron")
+
+# 2
+device("iPhone 12 Pro")
