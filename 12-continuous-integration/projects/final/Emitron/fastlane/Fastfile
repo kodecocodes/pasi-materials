@@ -1,0 +1,40 @@
+# 1
+ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "600"
+
+# 2
+default_platform(:ios)
+
+# 3
+platform :ios do
+
+  # 4
+  lane :build do
+    scan
+    cert
+    sigh
+    gym
+  end
+
+  lane :alpha do
+    # 1
+    build
+    # 2
+    pilot
+    # 3
+    increment_build_number
+  end
+
+  lane :release do
+    # 1
+    build
+    # 2
+    deliver
+    # 3
+    increment_build_number
+  end
+
+  lane :test do
+    scan
+  end
+  
+end
